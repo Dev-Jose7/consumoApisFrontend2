@@ -1,0 +1,50 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    height: 100vh;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+/* Contenedor de los botones */
+.button-container {
+    display: flex;
+    height: inherit;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; /* Espacio entre los botones */
+}
+
+/* Estilos de los botones */
+.api-button {
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.api-button:hover {
+    background-color: #0056b3;
+}
+
+.api-button:active {
+    background-color: #00408a;
+}
